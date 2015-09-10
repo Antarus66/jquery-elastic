@@ -17,11 +17,13 @@ Max heightThe css property ‘max-height’ will affect Elastic. Scrollbars will
 ####Options
 ```js
 $( selector ).elastic({     // default values
-    compactOnBlur: true
+    compactOnBlur: true,
+    emptyLinesBelow: 1
 });
 ```
 
 - **compactOnBlur** - defines if the textarea will reduce it's extra-height on focus lose.
+- **emptyLinesBelow** - the number of empty lines which added below the text in the textarea.
 
 ###Change log
 | Version | Changes |
