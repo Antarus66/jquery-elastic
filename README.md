@@ -14,6 +14,15 @@ $( selector ).elastic();
 
 Max heightThe css property ‘max-height’ will affect Elastic. Scrollbars will appear when the content is bigger than the set max height.
 
+####Options
+```js
+$( selector ).elastic({     // default values
+    compactOnBlur: true
+});
+```
+
+- **compactOnBlur** - defines if the textarea will reduce it's extra-height on focus lose.
+
 ###Change log
 | Version | Changes |
 | ------- | ------- |
